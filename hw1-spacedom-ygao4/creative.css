@@ -1,0 +1,45 @@
+/*
+  Name: Chloe Gao
+  Date: April 13, 2022
+  Section: CSE 154 AH
+  This is the creative.css that is used by the space.html.This css page
+styles the creative section in space.html.
+
+*/
+#creative h2 {
+  color: #E0DBD7;
+  font-size: 35px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+#creative img {
+  display: flex;
+  width: 80vw;
+  height: 50%;
+  border-top: 15px;
+  border-radius: 5%;
+  align-items: center;
+}
+
+#introduction, #list {
+  background-color: #E0DBD7;
+  padding: 20px;
+  border-top: 15px solid #551755;
+  border-bottom: 15px solid #551755;
+  width: 80%;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+#list, #creative h2 {
+  text-align: center;
+}
+
+#list, #creative p {
+  font-size: 20px;
+}
+
+#creative img, #introduction, #list {
+  margin: auto;
+  justify-content: center;
+}

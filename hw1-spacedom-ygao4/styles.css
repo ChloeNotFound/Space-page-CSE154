@@ -1,0 +1,144 @@
+/*
+  Name: Chloe Gao
+  Date: April 13, 2022
+  Section: CSE 154 AH
+  This is the styles.css page that is used by the space.html.
+  This css page mianly works on styling the title, introduction, facts and
+  jokes sections in the space.html
+*/
+
+body {
+  background-image: url("img/background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+header h1 {
+  font-family: 'Coda Caption', sans-serif;
+  text-transform: uppercase;
+  font-size: 120px;
+  margin-bottom: 0px;
+  text-shadow: 20px 15px 20px #551755;
+}
+
+header {
+  height: 100vh;
+}
+
+header blockquote {
+  margin-top: 0px;
+  font-size: 22px;
+}
+
+footer {
+  width: 100%;
+}
+
+#intro, #facts, #jokes {
+  width: 80%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#intro h2, #facts h2, #jokes h2 {
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+#intro, #facts {
+  padding: 30px;
+  border-top: 15px solid #551755;
+  border-bottom: 15px solid #551755;
+}
+
+#intro img {
+  width: 25vw;
+  height: 100%;
+  border-radius: 10%;
+  margin: 10px 50px 10px 10px;
+}
+
+#facts a {
+  color: #FFA605 #1B505F;
+}
+
+#jokes-cards {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+article {
+  margin: 15px;
+  height: 400px;
+  width: 300px;
+  background-color: #9B590D;
+  opacity: 80%;
+}
+
+article > p {
+  align-self: flex-start;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+hr {
+  width: 60%;
+}
+
+span {
+  font-size: 28px;
+}
+
+.answer {
+  color: #191819;
+  display: none;
+}
+
+article:hover .answer {
+  display: inline;
+}
+
+header, #intro section, #jokes-cards, article {
+  display: flex;
+}
+
+header, article, #jokes-cards {
+  align-items: center;
+}
+
+footer p, #jokes > p, header {
+  justify-content: center;
+}
+
+header, article {
+  flex-direction: column;
+}
+
+header, #jokes h2, #jokes > p, span {
+  color: #E0DBD7;
+}
+
+footer, #intro, #facts {
+  background-color: #E0DBD7;
+}
+
+footer p, article {
+  padding: 20px;
+}
+
+footer p, #intro h2, #facts h2, #jokes h2, #jokes > p {
+  text-align: center;
+}
+
+#intro p, #facts li {
+  font-size: 20px;
+}
+
+article, .answer, #facts p {
+  font-size: 24px;
+}
